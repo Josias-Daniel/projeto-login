@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+ @media screen and (min-width: 800px){
+    html,body{
+        background-color: blue;
+    }
+
+    section#login {
+        width: 85vw;
+        height: 300px;
+    }
+    section#login > div#imagem-c{
+        border-radius: 20px 0px 0px 20px;
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: center;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 63%;
+    }
+
+    div#formulario > h1{
+        text-align: center;
+        font-size: 2.2em;
+    }
+    div#formulario > p {
+font-size: 1.2em;
+    }
+ }
+
+ @media screen and (min-width: 1050px){
+    body, html{
+        background-color: red;
+        
+    }
+
+    section#login > div#imagem-{
+        float: left;
+        width: 30%;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+    
+    div#formulario > h1{
+        text-align: center;
+        font-size: 2.2em;
+    }
+    div#formulario > p {
+font-size: 1.2em;
+text-align: center;
+    }
+ }
